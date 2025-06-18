@@ -26,7 +26,7 @@ If public data is unavailable, synthetic yet realistic outage datasets will be g
 (Coming soon — will be deployed via [Streamlit Cloud](https://streamlit.io/cloud) or Hugging Face Spaces)
 
 ## 🛠️ Tech Stack
-- Python, Pandas, Scikit-learn
+- Python, Pandas, Scikit-learn,Google Colab
 - Streamlit (for frontend)
 - Matplotlib / Seaborn (for visualization)
 
