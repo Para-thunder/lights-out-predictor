@@ -1,43 +1,54 @@
-# lights-out-predictor
-A machine learning project to predict electricity load shedding hours in Pakistani cities.
+# ⚡ Load Shedding Predictor (Pakistan)
 
-# ⚡ Lights Out Predictor
+Predicting daily electricity load shedding hours in major Pakistani cities using machine learning and weather-based features.
 
-Predicting electricity load shedding hours in Pakistani cities using machine learning.
+---
 
-## 🔍 Project Overview
-In Pakistan, unpredictable power outages affect millions. This project uses machine learning to forecast daily load shedding durations based on features like day, temperature, and city.
+## 📌 Project Summary
 
-## 📦 Features
-- Predict daily load shedding hours
-- City-level insights (e.g., Lahore, Karachi, Islamabad)
-- Streamlit app interface
-- Daily GitHub updates with progress
+This project aims to forecast the number of daily electricity outage hours in cities like Lahore, Karachi, and Islamabad based on weather and time-related features. It simulates realistic load shedding data and demonstrates an end-to-end ML pipeline from data preprocessing to model deployment.
 
-## 🧠 ML Models
-- Linear Regression
-- Random Forest
-- XGBoost
+---
 
-## 📊 Dataset
-If public data is unavailable, synthetic yet realistic outage datasets will be generated based on real trends and weather conditions.
+## 🎯 Objectives
 
-## 🚀 App Demo
-(Coming soon — will be deployed via [Streamlit Cloud](https://streamlit.io/cloud) or Hugging Face Spaces)
+- Understand patterns of electricity load shedding using data visualization.
+- Predict daily outage hours using ML algorithms like Linear Regression and Random Forest.
+- Build a web interface to allow user-friendly predictions.
 
-## 🛠️ Tech Stack
-- Python, Pandas, Scikit-learn,Google Colab
-- Streamlit (for frontend)
-- Matplotlib / Seaborn (for visualization)
+---
 
-## 🗓️ Daily Progress Log
-- **June 14**: Initialized repo, planned dataset structure
-- **June 15**: Added synthetic data generator + started EDA
-- _(Update this daily!)_
+## 🧰 Tools & Technologies
 
-## 🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first.
+- Python, Pandas, NumPy
+- scikit-learn, Matplotlib, Seaborn
+- Streamlit (for web app)
+- Google Colab (Jupyter notebooks)
+- GitHub (version control)
 
-## 📄 License
-[MIT License](LICENSE)
+---
+
+## 📁 Project Structure
+
+loadshedding-prediction/
+├── data/ # Contains datasets (real or simulated)
+├── notebooks/ # Jupyter notebooks (EDA, training, etc.)
+├── models/ # Trained models (if saved)
+├── app/ # Streamlit app files
+├── requirements.txt # Required Python libraries
+├── README.md # Project overview
+└── main.py # Final script 
+
+---
+
+## 🚀 Future Additions
+
+- Add weather API integration (real-time temperature)
+- Deploy Streamlit app online
+- Extend to rural areas or seasonal load shedding patterns
+
+
+## 📌 License
+
+This repository is for educational and academic use. No commercial use of simulated data.
 
